@@ -1,11 +1,11 @@
 [includedirs]
-/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/include
+/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/include
 
 [libdirs]
-/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/lib
+/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/lib
 
 [bindirs]
-/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/bin
+/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/bin
 
 [resdirs]
 
@@ -51,13 +51,13 @@ rt
 
 
 [includedirs_openssl]
-/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/include
+/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/include
 
 [libdirs_openssl]
-/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/lib
+/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/lib
 
 [bindirs_openssl]
-/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/bin
+/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/bin
 
 [resdirs_openssl]
 
@@ -102,7 +102,7 @@ rt
 
 
 [rootpath_openssl]
-/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af
+/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857
 
 [name_openssl]
 openssl

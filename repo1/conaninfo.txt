@@ -14,20 +14,19 @@
 
 [full_settings]
     arch=x86_64
-    arch_build=x86_64
     build_type=Release
     compiler=gcc
     compiler.libcxx=libstdc++
     compiler.version=7.4
     os=Linux
-    os_build=Linux
 
 [full_requires]
-    openssl/1.1.1t:d32e14ea5d219c79e698c295e1a5f164eb7d03af
+    openssl/1.1.1t:dd0667184dd0fae4e8289bf8b9f585c67e02f857
 
 [full_options]
     openssl:386=False
     openssl:enable_weak_ssl_ciphers=False
+    openssl:fPIC=True
     openssl:no_aria=False
     openssl:no_asm=False
     openssl:no_async=False
@@ -80,7 +79,7 @@
     openssl:no_ts=False
     openssl:no_whirlpool=False
     openssl:openssldir=None
-    openssl:shared=True
+    openssl:shared=False
 
 [recipe_hash]
 

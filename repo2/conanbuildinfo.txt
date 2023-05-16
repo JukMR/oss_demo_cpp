@@ -11,7 +11,7 @@
 
 
 [builddirs]
-/home/julianmr/.conan/data/hello/1.1.0/mine/mine/package/0db3c9ab8431419beae3934b1a0cb087b700e965/
+/home/julianmr/.conan/data/hello/1.1.0/hello/mine/package/0db3c9ab8431419beae3934b1a0cb087b700e965/
 
 [libs]
 hello
@@ -64,7 +64,7 @@ rt
 
 
 [builddirs_hello]
-/home/julianmr/.conan/data/hello/1.1.0/mine/mine/package/0db3c9ab8431419beae3934b1a0cb087b700e965/
+/home/julianmr/.conan/data/hello/1.1.0/hello/mine/package/0db3c9ab8431419beae3934b1a0cb087b700e965/
 
 [libs_hello]
 hello
@@ -100,7 +100,7 @@ hello
 
 
 [rootpath_hello]
-/home/julianmr/.conan/data/hello/1.1.0/mine/mine/package/0db3c9ab8431419beae3934b1a0cb087b700e965
+/home/julianmr/.conan/data/hello/1.1.0/hello/mine/package/0db3c9ab8431419beae3934b1a0cb087b700e965
 
 [name_hello]
 hello

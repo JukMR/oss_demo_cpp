@@ -38,10 +38,10 @@ endmacro()
 #################
 ###  OPENSSL
 #################
-set(CONAN_OPENSSL_ROOT "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af")
-set(CONAN_INCLUDE_DIRS_OPENSSL "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/include")
-set(CONAN_LIB_DIRS_OPENSSL "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/lib")
-set(CONAN_BIN_DIRS_OPENSSL "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/bin")
+set(CONAN_OPENSSL_ROOT "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857")
+set(CONAN_INCLUDE_DIRS_OPENSSL "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/include")
+set(CONAN_LIB_DIRS_OPENSSL "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/lib")
+set(CONAN_BIN_DIRS_OPENSSL "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/bin")
 set(CONAN_RES_DIRS_OPENSSL )
 set(CONAN_SRC_DIRS_OPENSSL )
 set(CONAN_BUILD_DIRS_OPENSSL )
@@ -75,17 +75,15 @@ set(CONAN_LIBS_OPENSSL ${CONAN_PKG_LIBS_OPENSSL} ${CONAN_SYSTEM_LIBS_OPENSSL} ${
 
 ### Definition of global aggregated variables ###
 
-set(CONAN_PACKAGE_NAME None)
-set(CONAN_PACKAGE_VERSION None)
+set(CONAN_PACKAGE_NAME hello)
+set(CONAN_PACKAGE_VERSION 1.1.0)
 
 set(CONAN_SETTINGS_ARCH "x86_64")
-set(CONAN_SETTINGS_ARCH_BUILD "x86_64")
 set(CONAN_SETTINGS_BUILD_TYPE "Release")
 set(CONAN_SETTINGS_COMPILER "gcc")
 set(CONAN_SETTINGS_COMPILER_LIBCXX "libstdc++")
 set(CONAN_SETTINGS_COMPILER_VERSION "7.4")
 set(CONAN_SETTINGS_OS "Linux")
-set(CONAN_SETTINGS_OS_BUILD "Linux")
 
 set(CONAN_DEPENDENCIES openssl)
 # Storing original command line args (CMake helper) flags
@@ -95,9 +93,9 @@ set(CONAN_CMD_SHARED_LINKER_FLAGS ${CONAN_SHARED_LINKER_FLAGS})
 set(CONAN_CMD_C_FLAGS ${CONAN_C_FLAGS})
 # Defining accumulated conan variables for all deps
 
-set(CONAN_INCLUDE_DIRS "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/include" ${CONAN_INCLUDE_DIRS})
-set(CONAN_LIB_DIRS "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/lib" ${CONAN_LIB_DIRS})
-set(CONAN_BIN_DIRS "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/d32e14ea5d219c79e698c295e1a5f164eb7d03af/bin" ${CONAN_BIN_DIRS})
+set(CONAN_INCLUDE_DIRS "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/include" ${CONAN_INCLUDE_DIRS})
+set(CONAN_LIB_DIRS "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/lib" ${CONAN_LIB_DIRS})
+set(CONAN_BIN_DIRS "/home/julianmr/.conan/data/openssl/1.1.1t/_/_/package/dd0667184dd0fae4e8289bf8b9f585c67e02f857/bin" ${CONAN_BIN_DIRS})
 set(CONAN_RES_DIRS  ${CONAN_RES_DIRS})
 set(CONAN_FRAMEWORK_DIRS  ${CONAN_FRAMEWORK_DIRS})
 set(CONAN_LIBS ssl crypto ${CONAN_LIBS})

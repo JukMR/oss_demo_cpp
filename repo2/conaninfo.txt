@@ -23,7 +23,7 @@
     os_build=Linux
 
 [full_requires]
-    hello/1.1.0@mine/mine:0db3c9ab8431419beae3934b1a0cb087b700e965
+    hello/1.1.0@hello/mine:0db3c9ab8431419beae3934b1a0cb087b700e965
     openssl/1.1.1t:dd0667184dd0fae4e8289bf8b9f585c67e02f857
 
 [full_options]
