@@ -3,3 +3,6 @@ openssl/1.1.1t
 
 [generators]
 cmake
+
+[options]
+openssl:shared=True

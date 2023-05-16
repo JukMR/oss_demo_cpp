@@ -1,5 +1,7 @@
 #include <iostream>
+#include "openssl/ssl.h"
 
-void sayHello() {
+int main() {
     std::cout << "Hello, World!" << std::endl;
+    return 0;
 }
