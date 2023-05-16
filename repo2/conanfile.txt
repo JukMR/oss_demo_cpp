@@ -1,5 +1,0 @@
-[requires]
-hello/1.1.0@hello/mine
-
-[generators]
-cmake
