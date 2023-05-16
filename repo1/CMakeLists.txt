@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(hello_world hello_world.cpp)
 
-target_link_libraries(hello_world PRIVATE OpenSSL::SSL OpenSSL::Crypto)
+target_link_libraries(hello_world ${CONAN_LIBS})
 
 install(TARGETS hello_world RUNTIME DESTINATION bin)
